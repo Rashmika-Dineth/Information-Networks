@@ -23,6 +23,7 @@
    ![](Images/image1.JPG)
 
 3. The computer, "laptop" and mobile device in the picture are connected to the Internet via the router in the picture. The router's IP address is 172.18.226.1 and the subnet mask is 255.255.255.0.
+
    ![](Images/image2.JPG)
 
 - a) What should the IP addresses and masks of terminal devices be like in order for Internet access to be possible?
