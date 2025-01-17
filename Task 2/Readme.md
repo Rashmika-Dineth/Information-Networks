@@ -1,4 +1,6 @@
-# IP ADDRESS EXERCISES
+# Excercise 2
+
+### IP ADDRESS EXERCISES
 
 1. The IP addresses of devices and their subnet masks are shown below. Find out which part of
    the address is network and which part is host.
