@@ -24,14 +24,14 @@
 2. Which of the computers in the network below can operate with each other?
    ![](Images/image1.JPG)
 
-   PC1 => Network part => 172.16 (No communications)
-   PC2 => Network part => 175 => PC3
-   PC3 => Network part => 175 => PC2
-   PC4 => Network part => 172.18 => PC7
-   PC5 => Network part => 192.168.5 (No communications)
-   PC6 => Network part => 192.168.6 => PC8
-   PC7 => Network part => 172.18 => PC4
-   PC8 => Network part => 192.168.6 => PC6
+   - PC1 => Network part => 172.16 (No communications)
+   - PC2 => Network part => 175 => PC3
+   - PC3 => Network part => 175 => PC2
+   - PC4 => Network part => 172.18 => PC7
+   - PC5 => Network part => 192.168.5 (No communications)
+   - PC6 => Network part => 192.168.6 => PC8
+   - PC7 => Network part => 172.18 => PC4
+   - PC8 => Network part => 192.168.6 => PC6
 
 3. The computer, "laptop" and mobile device in the picture are connected to the Internet via the router in the picture. The router's IP address is 172.18.226.1 and the subnet mask is 255.255.255.0.
 
