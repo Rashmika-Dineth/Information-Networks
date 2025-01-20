@@ -38,19 +38,68 @@
    ![](Images/image2.JPG)
 
 - a) What should the IP addresses and masks of terminal devices be like in order for Internet access to be possible?
+
+- Network part of the address is "172.18.226"
+- Network address "172.18.226.0"
+- The possible range of the IP is 172.18.226.2 to 172.18.226.224
+- Network broadcast address is 172.18.226.225
+- Subnet mask should be 255.255.255.0
+
+# PC
+
+- IP => 172.18.226.2
+- Subnet Mask => 255.255.255.0
+
+# Mobile
+
+- IP => 172.18.226.3
+- Subnet Mask => 255.255.255.0
+
+# Laptop
+
+- IP => 172.18.226.4
+- Subnet Mask => 255.255.255.0
+
 - b) What kind of IP address should be defined as the default gateway for terminal devices
+
+- Default gateway is 172.18.226.1 (The IP of the router)
 
 4. What is the first and last address available for devices on the networks below. Why?
 
 - a) 192.0.0.0 ; 255.255.255.0
+
+  - Network address - 192.0.0.0
+  - Broadcast address - 192.0.0.255
+  - Available IP range 192.0.0.1 to 192.0.0.254
+
 - b) 172.0.0.0 ; 255.255.0.0
+
+  - Network address - 172.0.0.0
+  - Broadcast address - 172.0.255.255
+  - Available IP range 172.0.0.1 to 172.0.255.254
+
 - c) 112.0.0.0 ; 255.0.0.0
+
+  - Network address - 112.0.0.0
+  - Broadcast address - 112.255.255.255
+  - Available IP range 112.0.0.1 to 112.255.255.254
+
 - d) 192.168.0.0 ; 255.255.0.0
+
+  - Network address - 192.168.0.0
+  - Broadcast address - 192.168.255.255
+  - Available IP range 192.168.0.1 to 192.168.255.254
+
+  - As always we have to give the first address as the network address and the last address as the broadcast address the range inbetween can use for the IP assignments.
 
 5. Find out from your own computer:
 
-- a) Your IP address
-- b) Gateway IP address
-- c) DNS server IP address
-- d) DHCP server IP address
-- e) Does your computer use a public or private IP address
+- Use command _ipconfig /all_
+
+![](Images/image3.JPG)
+
+- a) Your IP address => 172.31.151.75
+- b) Gateway IP address => 172.31.148.1
+- c) DNS server IP address => 255.255.252.0
+- d) DHCP server IP address => 192.168.50.51
+- e) Does your computer use a public or private IP address => since the IP is 172.31.151.75 it is using a private IP address.
