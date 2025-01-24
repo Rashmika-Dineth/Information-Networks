@@ -222,3 +222,27 @@
 ---
 
 #### 12. Enable telnet management of switches by specifying telnet passwords
+
+- To enable Telnet on cisco devices we need to enable VTY lines by setting an password from the Switch CLI,
+
+![](Images/39.png)
+
+![](Images/40.png)
+
+---
+
+#### 14. Save your configuration to the startup-configuration file.
+
+![](Images/41.png)
+
+---
+
+#### 15. Find out how to save configuration file data to a PC. At the last return your configuration file to the Learn.
+
+- In Switch => Config => Use Export method we can save this config data in to the PC,
+
+![](Images/42.png)
+![](Images/43.png)
+![](Images/44.png)
+
+---
