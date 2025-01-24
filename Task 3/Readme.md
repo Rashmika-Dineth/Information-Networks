@@ -27,3 +27,16 @@
 - **Exe priviledge mode** : The **Exe priviledge mode** can be identified by the **#** symbole.
 
 ![](Images/2.png)
+
+- **Global configuration mode** : You can enter into this mode by command shortly **config t** or **configure terminal** command,
+
+- **Other Commands** : You can aso use auto filling by using the tab button, It will auto fill the commands if we enter unique values, if duplicate commands are available we can always use **?** to see the available commands ex: **con ?**, **config t**
+
+![](Images/3.png)
+
+- **specific configuration modes** : You can log in to specific config modes using below commands, and exit from the modes using **exit** command or end the config mode by **end** command.
+  -- line console 0
+  -- line vty 0 15
+  -- interface vlan 1
+
+![](Images/4.png)
