@@ -22,8 +22,8 @@
     - • Try shortening commands e.g. ena instead of enable, etc.
     - • Try completing commands with the tab key
 
-**User mode** : User mode can be identify by the **>** symbole and when you first enter to the CLI mode you are in the user mode. You can switch between **User mode** and **Exe priviledge mode** by using commands **enable** and **disable**.
+- **User mode** : User mode can be identify by the **>** symbole and when you first enter to the CLI mode you are in the user mode. You can switch between **User mode** and **Exe priviledge mode** by using commands **enable** and **disable**.
 
-**Exe priviledge mode** : The **Exe priviledge mode** can be identified by the **#** symbole.
+- **Exe priviledge mode** : The **Exe priviledge mode** can be identified by the **#** symbole.
 
 ![](Images/2.png)
