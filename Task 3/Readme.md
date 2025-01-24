@@ -206,3 +206,19 @@
 ---
 
 #### 11. Test the operation by pinging from computer to switches and from switches to switches, etc.
+
+- Using PC0 => Desktop => Command Prompt, pinging from computer to computer
+
+![](Images/35.png)
+
+- Using pinging from PC0 to SW1
+
+![](Images/36.png)
+
+- Using pinging from PC0 to SW2
+
+![](Images/37.png)
+
+---
+
+#### 12. Enable telnet management of switches by specifying telnet passwords
