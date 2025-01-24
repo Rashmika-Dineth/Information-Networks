@@ -107,3 +107,65 @@
 - we can confirm this using the reload command without saving anything. the system should ask for the password again even if we restart the system.
 
 ![](Images/17.png)
+
+---
+
+#### 7. Build the network as shown in the picture below
+
+![](Images/18.png)
+
+- The End Devices => PC and Network Devices => Switches => 2960 selected,
+
+![](Images/19.png)
+
+- The PC's are connected with copper straight-through cable,
+
+![](Images/20.png)
+
+- The Switches's are connected with copper cross-over cable,
+
+![](Images/21.png)
+
+---
+
+#### 8. Assign the computer an IP address of 172.18.226.0/24 from the network. (/24 means a mask where the first 24 bits are set to one. The mask is therefore 255.255.255.0)
+
+- The IP and the subnet can be set to the PC by click on PC => Desktop(Tab) => IP Configuration
+
+- PC0 => IP => 172.18.226.2
+- PC0 => Subnet => 255.255.2555.0 or /24 or 11111111.11111111.11111111.00000000
+
+![](Images/22.png)
+
+- PC1 => IP => 172.18.226.3
+- PC1 => Subnet => 255.255.2555.0 or /24 or 11111111.11111111.11111111.00000000
+
+![](Images/23.png)
+
+---
+
+#### 9. Test your computer-to-computer connection by pinging or using the envelope tool
+
+**Envelop method**
+
+- Select the closed envelop and click on PC0 and PC1, then the msg should flow, the success msg should be visible as below,
+
+![](Images/24.png)
+![](Images/26.png)
+
+- To see the simulation you can select on Simulation and play to see the dataflow,
+
+![](Images/25.png)
+![](Images/27.png)
+
+**pinging mode**
+
+- Go to PC0 => Desktop => Command Prompt, Then use command ping 172.18.226.2 & ping 172.18.226.3, If you see the below msg then connection is success.
+
+![](Images/28.png)
+
+- You can repeat this on PC1, if you need to double check,
+
+---
+
+#### 10. Assign each switch its own IP address from that previously used network. As you saw earlier, the switch forwards computer-to-computer traffic even if it doesn't have an IP address. The importance of the IP address on the switch is only related to network management.
