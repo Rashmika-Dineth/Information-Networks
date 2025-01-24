@@ -169,3 +169,40 @@
 ---
 
 #### 10. Assign each switch its own IP address from that previously used network. As you saw earlier, the switch forwards computer-to-computer traffic even if it doesn't have an IP address. The importance of the IP address on the switch is only related to network management.
+
+- Click on the switch and open the CLI
+
+![](Images/29.png)
+
+- 1. Update the Hostname of the switch to SW-Room-1.
+
+![](Images/30.png)
+
+- 2. Assign IP address 172.18.226.253 and subnetmask 255.255.255.0 to SW-Room-1. Turn on the IP port by **no shutdown** command.
+
+![](Images/31.png)
+
+- I had to change the IP again since I have set an incorrect IP as per the image, so the following step is an additional step.
+
+![](Images/33.png)
+
+- 3. Save the running config to startup config by **copy run start**
+
+![](Images/32.png)
+
+- 4. Repeat this to Switch 2 with following data,
+
+| ----------- | --------- | -------------- | ------------- |
+| Device Name | Host Name | IP | Subnet Mask |
+| ----------- | --------- | -------------- | ------------- |
+| PC 0 | - | 172.18.226.2 | 255.255.255.0 |
+| PC 1 | - | 172.18.226.3 | 255.255.255.0 |
+| SW1 | SW-Room-1 | 172.18.226.253 | 255.255.255.0 |
+| SW2 | SW-Room-2 | 172.18.226.254 | 255.255.255.0 |
+| ----------- | --------- | -------------- | ------------- |
+
+![](Images/34.png)
+
+---
+
+#### 11. Test the operation by pinging from computer to switches and from switches to switches, etc.
