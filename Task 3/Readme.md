@@ -95,3 +95,15 @@
 ---
 
 #### 6. Save your settings to the "permanent memory" of the switch. Use copy running-config startup-config commands. Also command write could be use. How to find out if a configuration is saved?
+
+- If you check the startup-configuration file **show start** it should be empty since we do not save anything. And if we check the running-configuration file by **show run** it will show the password setting and the running config data. And if we restart the device the running config data will be lost.
+
+![](Images/15.png)
+
+- Using **copy run start** will copy the running config data to starting configuration file. Then if we go **show start** it will show the saved data.
+
+![](Images/16.png)
+
+- we can confirm this using the reload command without saving anything. the system should ask for the password again even if we restart the system.
+
+![](Images/17.png)
