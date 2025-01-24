@@ -69,3 +69,29 @@
 • show ip interface brief
 
 ![](Images/9.png)
+
+---
+
+#### 4. Define a suitable "host name" for your switch
+
+![](Images/10.png)
+
+---
+
+#### 5. Define console password and privilege-mode password. Test that they work as intended.
+
+- Setting console mode password & Testing (Password : cisco)
+
+![](Images/11.png)
+
+![](Images/12.png)
+
+- Setting the privilege-mode password & Testing (Password : class)
+
+![](Images/13.png)
+
+![](Images/14.png)
+
+---
+
+#### 6. Save your settings to the "permanent memory" of the switch. Use copy running-config startup-config commands. Also command write could be use. How to find out if a configuration is saved?
