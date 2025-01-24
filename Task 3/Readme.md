@@ -8,6 +8,8 @@
 
 ### The aim of the work is to familiarize yourself with the Cisco user interface (IOS) and the basic configuration of the switch using the Packet Tracer program.
 
+---
+
 #### 1. In Packet Tracer, choose the Cisco 2960 switch, select the CLI tab, and learn how the user interface works.
 
 1. Open Packet Tracer and select Network Devices => Switches => 2960
@@ -15,6 +17,8 @@
 2. Select the network switch and go to CLI tab then press Enter,
 
 ![](Images/1.png)
+
+---
 
 #### 2. Familiarize yourself with the switch interface by figuring out the meaning of the following commands. (Note that you can always type a question mark, e.g. show?, after a command, so that the command is not executed, but you can see what kind of additional commands can be entered.)
 
@@ -40,3 +44,28 @@
   -- interface vlan 1
 
 ![](Images/4.png)
+
+---
+
+#### 3. Make sure you're in priviledge mode (use enable to access priviledge mode) and find out what the following commands mean.
+
+- Using the show command will display the current saved details,
+
+• show running-config : This will show the running configuration details of the switch. This is saved in the RAM and once the switch restart the setting saved under this file will be reset.
+![](Images/5.png)
+
+• show startup-config : This will show the startup configuration details. If you save the configuration data in startup-config file it will remain even if you restart the device. If you do not saved any startup config data it will show the message that startup-config is not present. You can copy the running config to startup-config and check if the file is updated by **copy** command. to see more simply press **spacebar**.
+
+![](Images/6.png)
+
+• show version :
+
+![](Images/7.png)
+
+• show flash
+
+![](Images/8.png)
+
+• show ip interface brief
+
+![](Images/9.png)
