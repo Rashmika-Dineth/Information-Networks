@@ -29,36 +29,36 @@
 
 5. Name the switches S1 and S2
 
-![](./Images/5.1png)
+![](./Images/5.1.png)
 
-![](./Images/5.2png)
+![](./Images/5.2.png)
 
-![](./Images/5.3png)
+![](./Images/5.3.png)
 
 6. Assign IP addresses to computers. Use the 192.168.6.0 /24 network
 
-![](./Images/6.1png)
+![](./Images/6.1.png)
 
-![](./Images/6.2png)
+![](./Images/6.2.png)
 
 7. Check out the ARP table on both computers. What addresses appear on the table?
 
-![](./Images/7.1png)
+![](./Images/7.1.png)
 
-![](./Images/7.2png)
+![](./Images/7.2.png)
 
 8. Ping to test the connection between computers and check the ARP table again. Has
    anything changed?
 
    Then the ARP table shows the data.
 
-![](./Images/8.1png)
+![](./Images/8.1.png)
 
-![](./Images/8.2png)
+![](./Images/8.2.png)
 
 9. Find out what the switch arp table looks like (Switch#show arp )
 
-![](./Images/9.1png)
+![](./Images/9.1.png)
 
 The ARP table is empty in the Switch
 
@@ -79,7 +79,9 @@ The ARP table is empty in the Switch
 - • If mac address table is empty, you should ping between computers again
 
 ![](./Images/10.0.png)
+
 ![](./Images/10.1.png)
+
 ![](./Images/10.2.png)
 
 11. What's the difference between arp and mac address tables?
