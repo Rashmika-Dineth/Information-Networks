@@ -86,4 +86,12 @@ The ARP table is empty in the Switch
 
 11. What's the difference between arp and mac address tables?
 
+- ARP Table: Works at the network layer (Layer 3) to map IP addresses to MAC addresses.
+
+- MAC Address Table: Works at the data link layer (Layer 2) to map MAC addresses to switch
+
+- ARP Table: Used by devices to determine where to send IP packets on a local network.
+
+- MAC Address Table: Used by switches to efficiently forward Ethernet frames to the correct destination.
+
 #### RETURN to the Moodle: Answers to the questions asked and PC’s arp table and switch mac address table. All in same file
