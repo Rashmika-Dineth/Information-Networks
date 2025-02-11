@@ -37,7 +37,7 @@ In this exercise needed two computer and one router
 
 ![](./Image/7.png)
 
-6. Build a network with two computers and one router, as shown in the figure below.
+6. Build a network with two computers and one router, as shown in the figure below
 
 ![](./Image/8.png)
 
@@ -59,4 +59,4 @@ In this exercise needed two computer and one router
 
 10. Disconnect all cables what you are use from patch cabinet
 
-![](./IP%20DATA.txt)
+[show ip route](https://github.com/Rashmika-Dineth/Information-Networks/blob/main/Task%207/IP%20DATA.txt)
